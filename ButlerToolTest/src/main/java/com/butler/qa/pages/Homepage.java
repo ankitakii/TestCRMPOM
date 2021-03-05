@@ -35,7 +35,7 @@ public class Homepage extends TestBase {
 
     public CalenderPage openCalender() throws InterruptedException {
     	calender.click();
-    	Thread.sleep(3000);
+    	Thread.sleep(4000);
     	return new CalenderPage();
     }
 
